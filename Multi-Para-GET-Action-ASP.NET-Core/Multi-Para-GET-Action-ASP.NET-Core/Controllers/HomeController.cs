@@ -41,7 +41,8 @@ namespace Multi_Para_GET_Action_ASP.NET_Core.Controllers
         [HttpGet]
         public IActionResult BothDetails(int id, string backendOnly, string frontendOnly)
         {
-            return Content("Using both ways : id - " + id + " and backendOnly - " + backendOnly);
+            var str = "Using both ways : id - " + id + " and backendOnly - " + backendOnly + " and frontendOnly -" + frontendOnly;
+            return Content(str);
         }
 
         [Route("getaction")]

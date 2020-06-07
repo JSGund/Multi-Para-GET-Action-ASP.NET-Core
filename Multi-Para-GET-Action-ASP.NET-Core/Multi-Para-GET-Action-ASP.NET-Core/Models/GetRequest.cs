@@ -5,13 +5,13 @@ namespace Multi_Para_GET_Action_ASP.NET_Core.Models
     [BindProperties]
     public class GetRequest
     {
-        //[BindProperty]
+        [BindProperty]
         public int Id { get; set; }
 
-        //[BindProperty]
+        [BindProperty]
         public string FrontEnd { get; set; }
 
-        //[BindProperty]
+        [BindProperty]
         public string BackEnd { get; set; }
     }
 }
