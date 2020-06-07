@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Multi_Para_GET_Action_ASP.NET_Core</RootNamespace>
+  </PropertyGroup>
+
+
+
+</Project>
